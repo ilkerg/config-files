@@ -15,6 +15,7 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'flazz/vim-colorschemes'
 
 call vundle#end()
 
