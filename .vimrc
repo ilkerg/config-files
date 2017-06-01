@@ -25,9 +25,15 @@ syntax on
 set laststatus=2
 
 let g:airline_powerline_fonts = 1
-let g:airline_theme='zenburn'
+let g:airline_theme='papercolor'
 
-colorscheme codeschool
+if has('gui_running')
+    set background=dark
+    colorscheme solarized
+else
+    colorscheme zenburn
+    "colorscheme codeschool
+endif
 
 set nu
 
