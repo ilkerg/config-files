@@ -1,3 +1,9 @@
+"vim-plug
+"https://github.com/junegunn/vim-plug
+"
+"powerline fonts
+"https://github.com/powerline/fonts
+
 call plug#begin()
 Plug 'rakr/vim-one'
 Plug 'vim-airline/vim-airline'
