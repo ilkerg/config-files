@@ -17,6 +17,7 @@ Plug 'tpope/vim-fugitive'
 call plug#end()
 
 set number
+set relativenumber
 
 set tabstop=4
 set shiftwidth=4
